@@ -1,0 +1,29 @@
+- Template String ou Template Literal --> Pesquisar
+
+- Aprendizado de hoje:
+* operador === 
+* var, let, const... não sabia que var era global. DOIDERA!
+* '\uXXXX' unicode (ASCII é coisa do passado, tá?)
+  Esse unicode, tem até código para emoji... To apaixonado.
+* camelCase, snake_case, kebab-case, PascalCase
+* varString.toLowerCase()... igual para maiusculo.
+* undefined... valor/tipo indefinido. Exemplo: var nome; console.log(nome)
+  (não foi atribuído nada a variável, então o compilador entende que o tipo/valor não foi definido.
+* null... diferente de undefined, ok?
+* truthy or falsy: 0, 1, '0', '1', "" (string vazia também é falso), NaN (tb é considerado falso)
+* converter um número em string, dois caminhos: String(var) ou var.toString()
+  mas para string em número, somente um caminho: Number(var)
+  por que?? 
+  No Javascript... numero é um tipo básico, e String é um objeto.
+  TA KIRIIIIIIIDA?
+* se eu pegar um boolean e aplicar Number() tenho 0 ou 1 como saída.
+* usar o console.error e o console.table (gostei desse)
+* Math.round, .pow, .sqrt, ...
+
+
+
+(Sugestão para os professores)
+Fundamentos do JAva Script: tipos, variáveis e funções
+JavaScript veio do C... Tinha outro nome, só foi mudado para JavaScript pq a Sun se apropriou dele.
+Por esse mesmo motivo, let aux = null faz typeof de aux ser igual a Objeto... (história sobre apontador)
+Sempre existiu o operador ternário, tá? Desde a criação da linguagem.
