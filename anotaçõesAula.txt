@@ -19,6 +19,8 @@
 * se eu pegar um boolean e aplicar Number() tenho 0 ou 1 como saída.
 * usar o console.error e o console.table (gostei desse)
 * Math.round, .pow, .sqrt, ...
+* Arrow Function... troço estranho mas acho que entendi. 
+* Hoisting.
 
 
 
@@ -27,3 +29,4 @@ Fundamentos do JAva Script: tipos, variáveis e funções
 JavaScript veio do C... Tinha outro nome, só foi mudado para JavaScript pq a Sun se apropriou dele.
 Por esse mesmo motivo, let aux = null faz typeof de aux ser igual a Objeto... (história sobre apontador)
 Sempre existiu o operador ternário, tá? Desde a criação da linguagem.
+O exemplo de Arrow Function com if (num 1 || num2 > 10) está errado... é necessário fazer if (num1> 10 || num2 > 10).
