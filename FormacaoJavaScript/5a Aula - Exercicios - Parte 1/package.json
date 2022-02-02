@@ -1,0 +1,17 @@
+{
+  "name": "5a-aula---exercicios---parte-1",
+  "version": "1.0.0",
+  "description": "Testando pacotes no node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pacotes",
+    "funcoes",
+    "node",
+    "iniciando"
+  ],
+  "author": "Marcelo Marcos Barbosa",
+  "license": "ISC"
+}

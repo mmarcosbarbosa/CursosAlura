@@ -1,0 +1,21 @@
+{
+  "name": "5a-aula---nodejs-primeira-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
