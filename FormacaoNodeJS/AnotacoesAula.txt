@@ -1,0 +1,21 @@
+1) Iniciando um projeto no node:
+   > npm init
+   Gera o arquivo package.json
+
+2) Para criar o servidor, é importante baixar o Express:
+   > npm install express
+
+3) Criar o express no codigo (import ou const...).
+   Criar app = express()
+   Falar qual porta será "escutada" do nosso lado (servidor): app.listen(3000).
+   Falar o que fazer em qual caminho, por exemplo, usando o get:  app.get('/', <<arrow function>>);
+
+4) Para não ficar reiniciando toda hora o server, instalar nodemon
+   > npm install --save-dev nodemon
+   Cria dependencia de dev apenas.
+
+5) Colocar lá no package.json, na chave "scripts", o start: "start": "nodemon index.js".
+
+6) Agora, em vez de iniciar com node "index.js", iniciamos com "npm start".
+
+7) 

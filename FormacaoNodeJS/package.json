@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmarcosbarbosa/AulaAlura_NodeJS.git"
+    "url": "git+https://github.com/mmarcosbarbosa/CursosAlura.git"
   },
   "keywords": [
     "nodejs",
@@ -19,7 +20,14 @@
   "author": "Marcelo Marcos Barbosa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mmarcosbarbosa/AulaAlura_NodeJS/issues"
+    "url": "https://github.com/mmarcosbarbosa/CursosAlura/issues"
   },
-  "homepage": "https://github.com/mmarcosbarbosa/AulaAlura_NodeJS#readme"
+  "homepage": "https://github.com/mmarcosbarbosa/CursosAlura#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }

@@ -1,0 +1,40 @@
+- Template String ou Template Literal --> Pesquisar
+
+- Aprendizado de hoje:
+* operador === 
+* var, let, const... não sabia que var era global. DOIDERA!
+* '\uXXXX' unicode (ASCII é coisa do passado, tá?)
+  Esse unicode, tem até código para emoji... To apaixonado.
+* camelCase, snake_case, kebab-case, PascalCase
+* varString.toLowerCase()... igual para maiusculo.
+* undefined... valor/tipo indefinido. Exemplo: var nome; console.log(nome)
+  (não foi atribuído nada a variável, então o compilador entende que o tipo/valor não foi definido.
+* null... diferente de undefined, ok?
+* truthy or falsy: 0, 1, '0', '1', "" (string vazia também é falso), NaN (tb é considerado falso)
+* converter um número em string, dois caminhos: String(var) ou var.toString()
+  mas para string em número, somente um caminho: Number(var)
+  por que?? 
+  No Javascript... numero é um tipo básico, e String é um objeto.
+  TA KIRIIIIIIIDA?
+* se eu pegar um boolean e aplicar Number() tenho 0 ou 1 como saída.
+* usar o console.error e o console.table (gostei desse)
+* Math.round, .pow, .sqrt, ...
+* Arrow Function... troço estranho mas acho que entendi. 
+* Hoisting.
+
+magnet:?xt=urn:btih:5910510CEAA053251394099A3C5A8551311AA7B1&dn=RuPauls.Drag.Race.Untucked.S14E04.WEB-DL.1080p-FN&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+
+(Sugestão para os professores)
+Fundamentos do JAva Script: tipos, variáveis e funções
+JavaScript veio do C... Tinha outro nome, só foi mudado para JavaScript pq a Sun se apropriou dele.
+Por esse mesmo motivo, let aux = null faz typeof de aux ser igual a Objeto... (história sobre apontador)
+Sempre existiu o operador ternário, tá? Desde a criação da linguagem.
+O exemplo de Arrow Function com if (num 1 || num2 > 10) está errado... é necessário fazer if (num1> 10 || num2 > 10).
+NA aula do push do vetor, "notas.push()" sem valor no parâmetro, o javascript entende que nada foi adicionado... Tanto
+que se vc der "notas.length", ele vai continuar mostrando o tamanho anterior.
+Portanto, quando vc refencia a posição "notas[3]", esta posicão nem existe. Então, não é que o push colocou elemento 
+
+
+
+
+ulo no vetor... Ele nem mexei nisso, a soma dá NaN pq esta posição agora é undefined! 
