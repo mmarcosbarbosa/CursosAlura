@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/mmarcosbarbosa/CursosAlura#readme",
   "dependencies": {
+    "axios": "^0.25.0",
     "consign": "^0.1.6",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "faker": "^6.6.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
