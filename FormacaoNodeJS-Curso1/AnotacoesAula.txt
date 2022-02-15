@@ -18,4 +18,27 @@
 
 6) Agora, em vez de iniciar com node "index.js", iniciamos com "npm start".
 
-7) 
+7) O consign é para reduzir os includes... quando vc colocar a pasta (no caso "controllers") ele já sabe que lá estão as
+   fragmentações do código.
+
+8) Quando vc tenta imprimir (console.log(requisicao.body)) o corpo da requisicao, dá Undefined.
+   Para isto, existe a lib "bodyparser" para deixar este corpo "legível".
+
+--- Projeto avançado ----
+
+9) Criando banco de dados atravez do prompt do mysql...
+   mysql -u root -h 127.0.0.1 -p  (vai pedir senha)
+   IMPORTANTE: sequelize já configurado, ver arquivo modeloTabelaFornecedor.
+
+   mysql> create database petshop;
+
+   --- Observar o arquivo criaTabelas... Veja o que o sequelize cria:
+Executing (default): CREATE TABLE IF NOT EXISTS `fornecedores` (`id` INTEGER NOT NULL auto_increment , `empresa` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `categoria` ENUM('ração', 'brinquedos') NOT NULL, `dataCriacao` DATETIME NOT NULL, `dataAtualizacao` DATETIME NOT NULL, `versao` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+Executing (default): SHOW INDEX FROM `fornecedores`
+
+Coisa linda de DEUS!!!
+
+10) Olha o que o findAll faz:
+Executing (default): SELECT `id`, `empresa`, `email`, `categoria`, `dataCriacao`, `dataAtualizacao`, `versao` FROM `fornecedores` AS `fornecedor`;
+
+
