@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6", // dê CTRL+Space para ver as opções (entre "")
+        "noEmitOnError": true
+    },
+    "include": [
+        "app/**/*"  // Se quiser mais pastas, coloque virgula e outras strings de pastas
+    ]
+}
